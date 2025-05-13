@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futuristische CSS Demo</title>
+    <!-- Die futuristische CSS-Datei einbinden -->
+    <link rel="stylesheet" href="futuristic_template.css">
+    <!-- Vorgeladene Google Fonts für das beste Ergebnis -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Navigation -->
+        <nav>
+            <div class="gradient-text" style="font-size: 1.5rem; font-weight: 700;">FuturUI</div>
+            <ul>
+                <li><a href="#komponenten">Komponenten</a></li>
+                <li><a href="#typografie">Typografie</a></li>
+                <li><a href="#formulare">Formulare</a></li>
+                <li><a href="#effekte">Effekte</a></li>
+                <li><a href="#animationen">Animationen</a></li>
+            </ul>
+        </nav>
+
+        <!-- Header-Bereich -->
+        <header class="mb-8">
+            <h1>Futuristische Design-Bibliothek</h1>
+            <p class="text-bright">Eine moderne CSS-Bibliothek für futuristische Webprojekte mit Notion-inspirierten Elementen und interaktiven Animationen.</p>
+            <div class="flex gap-3 mt-4">
+                <button class="btn btn-glow">Jetzt starten</button>
+                <button class="btn btn-outline">Dokumentation</button>
+            </div>
+        </header>
+
+        <!-- Grid-Demo -->
+        <section id="grid-demo" class="mb-8">
+            <h2>Responsives Grid</h2>
+            <p>Ein flexibles 12-Spalten-Grid-System für moderne Layouts.</p>
+            
+            <div class="grid mb-4">
+                <div class="col-4 col-md-6 col-sm-12">
+                    <div class="card hover-lift">
+                        <h3>Spalte 1</h3>
+                        <p>Dieses Element nimmt 4 von 12 Spalten auf großen Bildschirmen ein.</p>
+                    </div>
+                </div>
+                <div class="col-4 col-md-6 col-sm-12">
+                    <div class="card hover-lift">
+                        <h3>Spalte 2</h3>
+                        <p>Auf mittleren Bildschirmen werden 6 Spalten verwendet.</p>
+                    </div>
+                </div>
+                <div class="col-4 col-md-12 col-sm-12">
+                    <div class="card hover-lift">
+                        <h3>Spalte 3</h3>
+                        <p>Auf kleinen Bildschirmen nehmen alle Elemente die volle Breite ein.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Komponenten -->
+        <section id="komponenten" class="mb-8">
+            <h2>UI-Komponenten</h2>
+            <p>Entdecke die verschiedenen verfügbaren UI-Elemente.</p>
+
+            <!-- Cards -->
+            <h3 class="mb-4">Cards</h3>
+            <div class="grid mb-6">
+                <div class="col-4 col-md-6 col-sm-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <h4>Standard Card</h4>
+                        </div>
+                        <p>Eine einfache Karte mit Header und Content.</p>
+                        <div class="card-footer">
+                            <button class="btn btn-sm">Mehr erfahren</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-md-6 col-sm-12">
+                    <div class="holographic-card">
+                        <h4>Holografische Karte</h4>
+                        <p>Mit speziellen Lichteffekten und Interaktionen.</p>
+                        <button class="btn btn-secondary mt-3">Erkunden</button>
+                    </div>
+                </div>
+                <div class="col-4 col-md-12 col-sm-12">
+                    <div class="card glass">
+                        <h4>Glassmorphismus</h4>
+                        <p>Eine Karte mit Glaseffekt für moderne UIs.</p>
+                        <div class="mt-3">
+                            <span class="badge">Neu</span>
+                            <span class="badge badge-secondary">Premium</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Alerts -->
+            <h3 class="mb-4">Alerts</h3>
+            <div class="alert alert-info mb-3">
+                <strong>Info:</strong> Dies ist eine Informationsmeldung.
+            </div>
+            <div class="alert alert-success mb-3">
+                <strong>Erfolg:</strong> Deine Aktion wurde erfolgreich ausgeführt!
+            </div>
+            <div class="alert alert-warning mb-3">
+                <strong>Warnung:</strong> Bitte überprüfe deine Eingaben nochmals.
+            </div>
+            <div class="alert alert-danger mb-6">
+                <strong>Fehler:</strong> Es ist ein Problem aufgetreten.
+            </div>
+
+            <!-- Badges -->
+            <h3 class="mb-4">Badges</h3>
+            <div class="flex gap-3 flex-wrap mb-6">
+                <span class="badge">Standard</span>
+                <span class="badge badge-secondary">Sekundär</span>
+                <span class="badge badge-accent">Akzent</span>
+                <span class="badge badge-warning">Warnung</span>
+                <span class="badge badge-danger">Gefahr</span>
+                <span class="badge badge-info">Info</span>
+                <span class="badge badge-outline">Outline</span>
+            </div>
+
+            <!-- Buttons -->
+            <h3 class="mb-4">Buttons</h3>
+            <div class="flex gap-3 flex-wrap mb-6">
+                <button class="btn">Standard</button>
+                <button class="btn btn-secondary">Sekundär</button>
+                <button class="btn btn-danger">Gefahr</button>
+                <button class="btn btn-outline">Outline</button>
+                <button class="btn btn-ghost">Ghost</button>
+                <button class="btn btn-glow">Glow</button>
+            </div>
+
+            <!-- Tabs -->
+            <h3 class="mb-4">Tabs</h3>
+            <div class="tabs mb-1">
+                <div class="tab active">Dashboard</div>
+                <div class="tab">Profil</div>
+                <div class="tab">Einstellungen</div>
+                <div class="tab">Hilfe</div>
+            </div>
+            <div class="tab-content mb-6">
+                <div class="tab-panel active">
+                    <p>Dashboard-Inhalt hier. Dies ist der aktive Tab.</p>
+                </div>
+            </div>
+
+            <!-- Progress -->
+            <h3 class="mb-4">Progress Bar</h3>
+            <div class="progress mb-6">
+                <div class="progress-bar" style="width: 75%"></div>
+            </div>
+
+            <!-- Notion-Style Elemente -->
+            <h3 class="mb-4">Notion-Style Elemente</h3>
+            <div class="notion-block mb-3">
+                <p>Dies ist ein Notion-ähnlicher Textblock.</p>
+            </div>
+            <div class="notion-checkbox mb-2">
+                <input type="checkbox" id="task1">
+                <label for="task1">Eine wichtige Aufgabe</label>
+            </div>
+            <div class="notion-checkbox mb-3">
+                <input type="checkbox" id="task2" checked>
+                <label for="task2">Eine erledigte Aufgabe</label>
+            </div>
+            <div class="notion-callout mb-4">
+                <div class="notion-callout-icon">💡</div>
+                <div>
+                    <p>Dies ist ein Callout-Block im Notion-Stil.</p>
+                </div>
+            </div>
+            <div class="notion-toggle mb-6">
+                <div class="notion-toggle-header">Erweiterbarer Inhalt</div>
+                <div class="notion-toggle-content">
+                    <p>Hier ist der versteckte Inhalt, der angezeigt wird, wenn der Toggle geöffnet ist.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Typografie -->
+        <section id="typografie" class="mb-8">
+            <h2>Typografie</h2>
+            <p>Verschiedene Textstile und -formatierungen.</p>
+
+            <h1 class="mb-4">Überschrift 1</h1>
+            <h2 class="mb-4">Überschrift 2</h2>
+            <h3 class="mb-4">Überschrift 3</h3>
+            <h4 class="mb-4">Überschrift 4</h4>
+            <h5 class="mb-4">Überschrift 5</h5>
+            <h6 class="mb-6">Überschrift 6</h6>
+
+            <p class="mb-4">Dies ist ein normaler Textabsatz. Die CSS-Bibliothek bietet eine klare Hierarchie und angenehme Lesbarkeit.</p>
+            
+            <p class="mb-6">Hier ist ein <a href="#">Link</a> innerhalb eines Absatzes mit einem schönen Hover-Effekt.</p>
+
+            <blockquote class="mb-6">
+                Dies ist ein Blockzitat. Ideal für Zitate, wichtige Anmerkungen oder besondere Hervorhebungen im Text.
+            </blockquote>
+
+            <p class="mb-4">Hier ist ein Beispiel für <code>Inline-Code</code> innerhalb eines Absatzes.</p>
+            
+            <div class="mb-6">
+                <div class="code-header">
+                    <span>JavaScript</span>
+                    <button class="code-copy-btn">Kopieren</button>
+                </div>
+                <pre><code>// Ein JavaScript-Codebeispiel
+function helloWorld() {
+  console.log("Hallo, futuristische Welt!");
+}
+
+helloWorld();
+</code></pre>
+            </div>
+
+            <div class="mb-6">
+                <h4 class="mb-3">Listen:</h4>
+                <ul class="mb-4">
+                    <li>Erster Listenpunkt</li>
+                    <li>Zweiter Listenpunkt</li>
+                    <li>Dritter Listenpunkt mit verschachtelter Liste:
+                        <ul>
+                            <li>Verschachteltes Element 1</li>
+                            <li>Verschachteltes Element 2</li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <ol>
+                    <li>Erster nummerierter Punkt</li>
+                    <li>Zweiter nummerierter Punkt</li>
+                    <li>Dritter nummerierter Punkt</li>
+                </ol>
+            </div>
+        </section>
+
+        <!-- Formulare -->
+        <section id="formulare" class="mb-8">
+            <h2>Formularelemente</h2>
+            <p>Verschiedene Eingabe- und Interaktionselemente.</p>
+            
+            <form>
+                <div class="mb-4">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Dein Name">
+                </div>
+                
+                <div class="mb-4">
+                    <label for="email">E-Mail</label>
+                    <input type="email" id="email" placeholder="deine@email.de">
+                </div>
+                
+                <div class="mb-4">
+                    <label for="select">Auswahl</label>
+                    <select id="select">
+                        <option>Option 1</option>
+                        <option>Option 2</option>
+                        <option>Option 3</option>
+                    </select>
+                </div>
+                
+                <div class="mb-4">
+                    <label for="message">Nachricht</label>
+                    <textarea id="message" placeholder="Deine Nachricht hier..."></textarea>
+                </div>
+                
+                <div class="mb-4 flex gap-3 items-center">
+                    <div class="switch">
+                        <input type="checkbox" id="toggle">
+                        <span class="slider"></span>
+                    </div>
+                    <label for="toggle">Benachrichtigungen aktivieren</label>
+                </div>
+                
+                <div class="mb-4">
+                    <button class="btn" type="submit">Absenden</button>
+                </div>
+            </form>
+        </section>
+
+        <!-- Spezialeffekte -->
+        <section id="effekte" class="mb-8">
+            <h2>Spezialeffekte</h2>
+            <p>Einzigartige Elemente mit futuristischen Effekten.</p>
+            
+            <!-- Terminal -->
+            <h3 class="mb-3">Terminal</h3>
+            <div class="terminal mb-6">
+                <div class="terminal-content">
+                    <div class="terminal-line">npm install futuristic-ui</div>
+                    <div class="terminal-line">Installing packages...</div>
+                    <div class="terminal-line">Successfully installed futuristic-ui</div>
+                    <div class="terminal-line">Ready to use<span class="terminal-cursor"></span></div>
+                </div>
+            </div>
+            
+            <!-- Glitch Text -->
+            <h3 class="mb-3">Glitch-Effekt</h3>
+            <div class="mb-6">
+                <div class="glitch" data-text="FUTURISTISCH">FUTURISTISCH</div>
+            </div>
+            
+            <!-- Neon -->
+            <h3 class="mb-3">Neon-Effekte</h3>
+            <div class="mb-6">
+                <p class="neon mb-3" style="font-size: 2rem; font-weight: bold;">Neon Text</p>
+                <div class="card neon-border">
+                    <p>Eine Karte mit Neon-Rahmen.</p>
+                </div>
+            </div>
+            
+            <!-- Cyber Line -->
+            <div class="cyber-line mb-6"></div>
+            
+            <!-- Phase Steps -->
+            <h3 class="mb-3">Phasen-Schritte</h3>
+            <div class="phase-container mb-6">
+                <div class="phase-step">
+                    <div class="phase-circle completed">1</div>
+                    <div class="phase-line"></div>
+                    <div class="phase-circle active">2</div>
+                    <div class="phase-line"></div>
+                    <div class="phase-circle">3</div>
+                </div>
+                <p class="text-center">Schritt 2 von 3: Konfiguration</p>
+            </div>
+            
+            <!-- Tooltip -->
+            <h3 class="mb-3">Tooltips</h3>
+            <div class="mb-6 text-center">
+                <span class="tooltip" data-tooltip="Dies ist ein Tooltip">Hover über mich</span>
+            </div>
+        </section>
+
+        <!-- Animationen -->
+        <section id="animationen" class="mb-8">
+            <h2>Animationen</h2>
+            <p>Dynamische Elemente für lebendige Benutzeroberflächen.</p>
+            
+            <div class="grid mb-6">
+                <div class="col-4 col-md-6 col-sm-12">
+                    <div class="card animate-glow">
+                        <h4>Glow-Animation</h4>
+                        <p>Diese Karte hat einen pulsierenden Glüheffekt.</p>
+                    </div>
+                </div>
+                <div class="col-4 col-md-6 col-sm-12">
+                    <div class="card animate-pulse">
+                        <h4>Puls-Animation</h4>
+                        <p>Diese Karte pulsiert sanft ein und aus.</p>
+                    </div>
+                </div>
+                <div class="col-4 col-md-12 col-sm-12">
+                    <div class="card animate-float">
+                        <h4>Schwebende Animation</h4>
+                        <p>Diese Karte schwebt sanft auf und ab.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <h3 class="mb-3">Gradient Text</h3>
+            <p class="gradient-text mb-6" style="font-size: 2rem; font-weight: bold;">Farbverlaufstext mit Animation</p>
+            
+            <h3 class="mb-3">Typing-Effekt</h3>
+            <div class="mb-6">
+                <span class="typing-effect">Dies ist ein Schreibmaschineneffekt</span>
+            </div>
+            
+            <h3 class="mb-3">Loader</h3>
+            <div class="mb-6 flex gap-4">
+                <div class="loader"></div>
+                <p>Lädt Inhalte...</p>
+            </div>
+        </section>
+
+        <!-- Tabellen -->
+        <section class="mb-8">
+            <h2>Tabellen</h2>
+            <p>Stilvolle Datendarstellung mit Hover-Effekten.</p>
+            
+            <table class="mb-6">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Name</th>
+                        <th>Position</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Max Mustermann</td>
+                        <td>Entwickler</td>
+                        <td><span class="badge badge-secondary">Aktiv</span></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Erika Musterfrau</td>
+                        <td>Designer</td>
+                        <td><span class="badge badge-info">Neu</span></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>John Doe</td>
+                        <td>Manager</td>
+                        <td><span class="badge badge-warning">Beschäftigt</span></td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Jane Smith</td>
+                        <td>Marketing</td>
+                        <td><span class="badge badge-danger">Abwesend</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Footer -->
+        <footer class="mb-6">
+            <hr>
+            <div class="flex justify-between items-center mt-6">
+                <p>&copy; 2025 FuturUI - Futuristische CSS Bibliothek</p>
+                <div class="theme-switch"></div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Demo-JavaScript für interaktive Elemente -->
+    <script src="script.js"></script>
+</body>
+</html>
