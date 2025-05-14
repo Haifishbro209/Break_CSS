@@ -1,28 +1,35 @@
-"# Break_CSS\n\n"
-"**Break_CSS** is a lightweight, futuristic CSS template built for developers who want fast and beautiful styling with zero setup.  \n"
-"It includes modern fonts and styles out of the box and is ready to use via CDN.\n\n"
-"---\n\n"
-"## 🚀 Quick Start\n\n"
-"To use Break_CSS in your project, just add the following lines inside the `<head>` of your HTML:\n\n"
-"```html\n"
-"<!-- Load Break_CSS stylesheet -->\n"
-"<link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/gh/Haifishbro209/Break_CSS@latest/futuristic_template.css\">\n\n"
-"<!-- Load required fonts -->\n"
-"<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n"
-"<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n"
-"<link href=\"https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap\" rel=\"stylesheet\">\n"
-"```\n\n"
-"---\n\n"
-"## 🧪 Example Usage\n\n"
-"```html\n"
-"<button class=\"futuristic-button\">Click Me</button>\n"
-"```\n\n"
-"---\n\n"
-"## 📦 CDN Versioning\n\n"
-"For stability, you can also link a specific version:\n\n"
-"```html\n"
-"<link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/gh/Haifishbro209/Break_CSS@v1.0.0/futuristic_template.css\">\n"
-"```\n\n"
-"---\n\n"
-"## 📄 License\n\n"
-"MIT License – free for personal and commercial use.\n"
+
+# F*ck CSS
+
+Break CSS is the best way to quit CSS.
+
+## 🚀 Quick Start
+
+To use Break_CSS in your project, just add the following lines inside the `<head>` of your HTML:
+
+```html
+<!-- Load Break_CSS stylesheet -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Haifishbro209/Break_CSS@latest/futuristic_template.css">
+
+<!-- Load required fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+```
+
+## 💡 Example Usage
+```<button class="futuristic-button">Click Me</button>```
+
+For better documentation read the  [`<index.html>`](./index.html) file.
+
+#
+
+## 📄 Repository Files
+| File                      | Description                          |
+| ------------------------- | ------------------------------------ |
+| `futuristic_template.css` | Main CSS file with styles (you can just download it if you want)         |
+| `index.html`              | Example HTML file showcasing usage   |
+| `script.js`               | Optional JavaScript for enhancements |
+
+## 📄 License
+Does not exist. Just use it for personal or comercial stuff.
