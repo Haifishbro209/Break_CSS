@@ -31,5 +31,7 @@ For better documentation read the  [`<index.html>`](./index.html) file.
 | `index.html`              | Example HTML file showcasing usage   |
 | `script.js`               | Optional JavaScript for enhancements |
 
+More versions comming soon! 
+
 ## 📄 License
 Does not exist. Just use it for personal or comercial stuff.
