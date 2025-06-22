@@ -3,7 +3,7 @@
 
 The end of CSS CSS is the best way to quit CSS.
 
-demo https://haifishbro209.github.io/Break_CSS/
+demo https://haifishbro209.github.io/The_END_of_CSS
 
 ## 🚀 Quick Start
 
