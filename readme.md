@@ -1,7 +1,7 @@
 
 # F*ck CSS
 
-Break CSS is the best way to quit CSS.
+The end of CSS CSS is the best way to quit CSS.
 
 demo https://haifishbro209.github.io/Break_CSS/
 
